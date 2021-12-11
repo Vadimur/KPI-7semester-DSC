@@ -25,7 +25,6 @@ namespace Producer.Services
                                   durable: true,
                                   exclusive: false,
                                   autoDelete: false);
-            //
         }
 
         public void Produce<T>(T @object)
