@@ -17,7 +17,7 @@ namespace Producer.Services
         {
             _logger = logger;
 
-            ConnectionFactory factory = new ConnectionFactory() { HostName = "localhost" };
+            ConnectionFactory factory = new ConnectionFactory() { HostName = SharedConstants.HostName };
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();
 
