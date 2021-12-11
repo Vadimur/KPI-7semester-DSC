@@ -1,0 +1,5 @@
+d:
+
+cd KPI7-distibuuted\lab4\MPI.Matrix\MPI.Matrix\bin\Debug\netcoreapp3.1
+
+mpiexec -n 5 MPI.Matrix.exe
